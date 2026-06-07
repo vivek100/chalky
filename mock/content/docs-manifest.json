@@ -1,0 +1,958 @@
+[
+  {
+    "title": "Docs",
+    "slug": "index",
+    "sourceUrl": "https://docs.moss.dev/docs/index.md",
+    "category": "Home",
+    "localPath": "content/docs/index.md"
+  },
+  {
+    "title": "Core Concepts",
+    "slug": "start/core-concepts",
+    "sourceUrl": "https://docs.moss.dev/docs/start/core-concepts.md",
+    "category": "Start",
+    "description": "Indexes, embeddings, retrieval, sessions, sync, and the rest of the Moss model.",
+    "localPath": "content/docs/start/core-concepts.md"
+  },
+  {
+    "title": "Quickstart",
+    "slug": "start/quickstart",
+    "sourceUrl": "https://docs.moss.dev/docs/start/quickstart.md",
+    "category": "Start",
+    "description": "Install, authenticate, create an index, and query it (JS/Python tabs)",
+    "localPath": "content/docs/start/quickstart.md"
+  },
+  {
+    "title": "Vibecoding with Moss",
+    "slug": "start/vibecoding",
+    "sourceUrl": "https://docs.moss.dev/docs/start/vibecoding.md",
+    "category": "Start",
+    "description": "Starter prompts, LLM-friendly docs, and MCP setup for building Moss-powered apps with AI coding tools.",
+    "localPath": "content/docs/start/vibecoding.md"
+  },
+  {
+    "title": "What is Moss?",
+    "slug": "start/what-is-moss",
+    "sourceUrl": "https://docs.moss.dev/docs/start/what-is-moss.md",
+    "category": "Start",
+    "description": "Real-time semantic search that runs where your agent lives",
+    "localPath": "content/docs/start/what-is-moss.md"
+  },
+  {
+    "title": "Agent Context",
+    "slug": "build/agent-context",
+    "sourceUrl": "https://docs.moss.dev/docs/build/agent-context.md",
+    "category": "Build",
+    "description": "Persist and recall agent context as documents in a Moss index.",
+    "localPath": "content/docs/build/agent-context.md"
+  },
+  {
+    "title": "Browser Extension Context",
+    "slug": "build/browser-extension-context",
+    "sourceUrl": "https://docs.moss.dev/docs/build/browser-extension-context.md",
+    "category": "Build",
+    "description": "Run indexing and queries in the browser with the @moss-dev/moss-web SDK.",
+    "localPath": "content/docs/build/browser-extension-context.md"
+  },
+  {
+    "title": "Cross-Agent Context & Omni-Channel Handoff",
+    "slug": "build/cross-agent-handoff",
+    "sourceUrl": "https://docs.moss.dev/docs/build/cross-agent-handoff.md",
+    "category": "Build",
+    "description": "Hand a conversation off across agents, channels, and devices with full context intact.",
+    "localPath": "content/docs/build/cross-agent-handoff.md"
+  },
+  {
+    "title": "Data Hydration & Sync",
+    "slug": "build/data-hydration-sync",
+    "sourceUrl": "https://docs.moss.dev/docs/build/data-hydration-sync.md",
+    "category": "Build",
+    "description": "Hydrate on-device indexes from the cloud and keep them fresh with zero-downtime hot-swaps.",
+    "localPath": "content/docs/build/data-hydration-sync.md"
+  },
+  {
+    "title": "Electron App Local Search",
+    "slug": "build/electron-local-search",
+    "sourceUrl": "https://docs.moss.dev/docs/build/electron-local-search.md",
+    "category": "Build",
+    "description": "Run a Moss index in the Electron main process and query it from the renderer over IPC.",
+    "localPath": "content/docs/build/electron-local-search.md"
+  },
+  {
+    "title": "Live-Call Context",
+    "slug": "build/live-call-context",
+    "sourceUrl": "https://docs.moss.dev/docs/build/live-call-context.md",
+    "category": "Build",
+    "description": "Query a persistent cloud index and a live session together during a conversation.",
+    "localPath": "content/docs/build/live-call-context.md"
+  },
+  {
+    "title": "Local Embeddings",
+    "slug": "build/local-embeddings",
+    "sourceUrl": "https://docs.moss.dev/docs/build/local-embeddings.md",
+    "category": "Build",
+    "description": "Embed documents on-device with a built-in model.",
+    "localPath": "content/docs/build/local-embeddings.md"
+  },
+  {
+    "title": "Sub-10ms Knowledge Retrieval",
+    "slug": "build/offline-first-search",
+    "sourceUrl": "https://docs.moss.dev/docs/build/offline-first-search.md",
+    "category": "Build",
+    "description": "Load an index into memory and run semantic queries in-process.",
+    "localPath": "content/docs/build/offline-first-search.md"
+  },
+  {
+    "title": "Real-Time Local Indexing",
+    "slug": "build/real-time-local-indexing",
+    "sourceUrl": "https://docs.moss.dev/docs/build/real-time-local-indexing.md",
+    "category": "Build",
+    "description": "Index and query in-process with a local session - no per-operation network call.",
+    "localPath": "content/docs/build/real-time-local-indexing.md"
+  },
+  {
+    "title": "Voice Agent (LiveKit)",
+    "slug": "build/voice-agent-livekit",
+    "sourceUrl": "https://docs.moss.dev/docs/build/voice-agent-livekit.md",
+    "category": "Build",
+    "description": "Ground a LiveKit voice agent in your Moss index for real-time retrieval.",
+    "localPath": "content/docs/build/voice-agent-livekit.md"
+  },
+  {
+    "title": "Authentication",
+    "slug": "integrate/authentication",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/authentication.md",
+    "category": "Integrate",
+    "description": "Configure project credentials for the Moss SDKs",
+    "localPath": "content/docs/integrate/authentication.md"
+  },
+  {
+    "title": "Custom Embeddings",
+    "slug": "integrate/custom-embeddings",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/custom-embeddings.md",
+    "category": "Integrate",
+    "description": "Bring your own vectors instead of a built-in on-device model.",
+    "localPath": "content/docs/integrate/custom-embeddings.md"
+  },
+  {
+    "title": "Deployment / Production",
+    "slug": "integrate/deployment-production",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/deployment-production.md",
+    "category": "Integrate",
+    "description": "Checklist for shipping Moss-backed features",
+    "localPath": "content/docs/integrate/deployment-production.md"
+  },
+  {
+    "title": "Hybrid Search",
+    "slug": "integrate/hybrid-search",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/hybrid-search.md",
+    "category": "Integrate",
+    "description": "Blend semantic and keyword scoring with a single alpha parameter.",
+    "localPath": "content/docs/integrate/hybrid-search.md"
+  },
+  {
+    "title": "Indexing Data",
+    "slug": "integrate/indexing-data",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/indexing-data.md",
+    "category": "Integrate",
+    "description": "Prepare and upsert your content into Moss indexes",
+    "localPath": "content/docs/integrate/indexing-data.md"
+  },
+  {
+    "title": "Metadata Filtering",
+    "slug": "integrate/metadata-filtering",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/metadata-filtering.md",
+    "category": "Integrate",
+    "description": "Narrow query results to documents whose metadata matches a filter.",
+    "localPath": "content/docs/integrate/metadata-filtering.md"
+  },
+  {
+    "title": "Multi-Index Search",
+    "slug": "integrate/multi-index-search",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/multi-index-search.md",
+    "category": "Integrate",
+    "description": "Search across multiple loaded indexes in one call and get a global top-K.",
+    "localPath": "content/docs/integrate/multi-index-search.md"
+  },
+  {
+    "title": "Retrieval",
+    "slug": "integrate/retrieval",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/retrieval.md",
+    "category": "Integrate",
+    "description": "Choose vector, keyword, or hybrid retrieval",
+    "localPath": "content/docs/integrate/retrieval.md"
+  },
+  {
+    "title": "Sessions",
+    "slug": "integrate/sessions",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/sessions.md",
+    "category": "Integrate",
+    "description": "Local-first, real-time indexing with create-resume-query-push.",
+    "localPath": "content/docs/integrate/sessions.md"
+  },
+  {
+    "title": "Storage & Persistence",
+    "slug": "integrate/storage-persistence",
+    "sourceUrl": "https://docs.moss.dev/docs/integrate/storage-persistence.md",
+    "category": "Integrate",
+    "description": "Persist loaded indexes to disk and keep them in sync with the cloud.",
+    "localPath": "content/docs/integrate/storage-persistence.md"
+  },
+  {
+    "title": "Agora",
+    "slug": "integrations/agora",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/agora.md",
+    "category": "Integrations",
+    "description": "Add real-time knowledge base access to Agora Conversational AI voice agents with Moss semantic search over MCP.",
+    "localPath": "content/docs/integrations/agora.md"
+  },
+  {
+    "title": "DSPy",
+    "slug": "integrations/dspy",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/dspy.md",
+    "category": "Integrations",
+    "description": "Use Moss as a retrieval module in DSPy programs for sub-10ms semantic search.",
+    "localPath": "content/docs/integrations/dspy.md"
+  },
+  {
+    "title": "ElevenLabs",
+    "slug": "integrations/elevenlabs",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/elevenlabs.md",
+    "category": "Integrations",
+    "description": "Add real-time knowledge base access to ElevenLabs Conversational AI agents with Moss semantic search.",
+    "localPath": "content/docs/integrations/elevenlabs.md"
+  },
+  {
+    "title": "LangChain",
+    "slug": "integrations/langchain",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/langchain.md",
+    "category": "Integrations",
+    "description": "Use Moss as a retriever in LangChain chains and agents for sub-10ms semantic search.",
+    "localPath": "content/docs/integrations/langchain.md"
+  },
+  {
+    "title": "LiveKit",
+    "slug": "integrations/livekit",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/livekit.md",
+    "category": "Integrations",
+    "localPath": "content/docs/integrations/livekit.md"
+  },
+  {
+    "title": "MCP Server",
+    "slug": "integrations/mcp-server",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/mcp-server.md",
+    "category": "Integrations",
+    "description": "Connect Moss semantic search to any MCP-compatible AI client - Claude Desktop, Cursor, VS Code, and more.",
+    "localPath": "content/docs/integrations/mcp-server.md"
+  },
+  {
+    "title": "Moss CLI",
+    "slug": "integrations/moss-cli",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/moss-cli.md",
+    "category": "Integrations",
+    "description": "Manage indexes, documents, and queries from the terminal",
+    "localPath": "content/docs/integrations/moss-cli.md"
+  },
+  {
+    "title": "Next.js",
+    "slug": "integrations/nextjs",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/nextjs.md",
+    "category": "Integrations",
+    "description": "Add semantic search to a Next.js application using Moss with Server Actions.",
+    "localPath": "content/docs/integrations/nextjs.md"
+  },
+  {
+    "title": "Pipecat",
+    "slug": "integrations/pipecat",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/pipecat.md",
+    "category": "Integrations",
+    "localPath": "content/docs/integrations/pipecat.md"
+  },
+  {
+    "title": "VAPI",
+    "slug": "integrations/vapi",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/vapi.md",
+    "category": "Integrations",
+    "description": "Connect Moss semantic search to VAPI voice agents via a Custom Knowledge Base webhook.",
+    "localPath": "content/docs/integrations/vapi.md"
+  },
+  {
+    "title": "Vercel AI SDK",
+    "slug": "integrations/vercel-ai-sdk",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/vercel-ai-sdk.md",
+    "category": "Integrations",
+    "description": "Give AI agents semantic search capabilities using Moss tools for the Vercel AI SDK.",
+    "localPath": "content/docs/integrations/vercel-ai-sdk.md"
+  },
+  {
+    "title": "VitePress",
+    "slug": "integrations/vitepress",
+    "sourceUrl": "https://docs.moss.dev/docs/integrations/vitepress.md",
+    "category": "Integrations",
+    "description": "Add semantic search to your VitePress documentation site with zero configuration using Moss.",
+    "localPath": "content/docs/integrations/vitepress.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "reference/browser/api",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/browser/api.md",
+    "category": "Reference: Browser",
+    "description": "Private, in-browser semantic search for the web with the Moss Browser/WASM SDK.",
+    "localPath": "content/docs/reference/browser/api.md"
+  },
+  {
+    "title": "Browser vs Node",
+    "slug": "reference/browser/browser-vs-node",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/browser/browser-vs-node.md",
+    "category": "Reference: Browser",
+    "description": "Choose between the Moss Browser/WASM SDK and the Node SDK.",
+    "localPath": "content/docs/reference/browser/browser-vs-node.md"
+  },
+  {
+    "title": "MossClient",
+    "slug": "reference/browser/classes/MossClient",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/browser/classes/MossClient.md",
+    "category": "Reference: Browser",
+    "description": "In-browser semantic search client backed by WebAssembly.",
+    "localPath": "content/docs/reference/browser/classes/MossClient.md"
+  },
+  {
+    "title": "API reference",
+    "slug": "reference/c/api",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/c/api.md",
+    "category": "Reference: C",
+    "description": "MossClient and MossSession functions, memory management, and error handling for libmoss.",
+    "localPath": "content/docs/reference/c/api.md"
+  },
+  {
+    "title": "Examples",
+    "slug": "reference/c/examples",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/c/examples.md",
+    "category": "Reference: C",
+    "description": "Runnable libmoss programs: session workflow, cloud CRUD, and metadata filtering.",
+    "localPath": "content/docs/reference/c/examples.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "reference/c/getting-started",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/c/getting-started.md",
+    "category": "Reference: C",
+    "description": "Semantic search in C with libmoss, the native Moss runtime.",
+    "localPath": "content/docs/reference/c/getting-started.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "reference/elixir/api",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/elixir/api.md",
+    "category": "Reference: Elixir",
+    "description": "On-device semantic search for Elixir with the Moss Elixir SDK.",
+    "localPath": "content/docs/reference/elixir/api.md"
+  },
+  {
+    "title": "Moss.Client",
+    "slug": "reference/elixir/classes/Client",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/elixir/classes/Client.md",
+    "category": "Reference: Elixir",
+    "description": "Entry point for cloud index management and local querying in the Moss Elixir SDK.",
+    "localPath": "content/docs/reference/elixir/classes/Client.md"
+  },
+  {
+    "title": "Moss.Session",
+    "slug": "reference/elixir/classes/Session",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/elixir/classes/Session.md",
+    "category": "Reference: Elixir",
+    "description": "Local in-session index for real-time embedding, search, and cloud sync.",
+    "localPath": "content/docs/reference/elixir/classes/Session.md"
+  },
+  {
+    "title": "Types",
+    "slug": "reference/elixir/types",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/elixir/types.md",
+    "category": "Reference: Elixir",
+    "description": "Structs passed to and returned from the Moss Elixir SDK.",
+    "localPath": "content/docs/reference/elixir/types.md"
+  },
+  {
+    "title": "Errors & Troubleshooting",
+    "slug": "reference/errors",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/errors.md",
+    "category": "Reference",
+    "description": "Reference for common Moss SDK errors and how to fix them",
+    "localPath": "content/docs/reference/errors.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "reference/js/api",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/api.md",
+    "category": "Reference: JavaScript",
+    "description": "Everything the Moss JavaScript SDK can do, with a snippet for each operation.",
+    "localPath": "content/docs/reference/js/api.md"
+  },
+  {
+    "title": "MossClient",
+    "slug": "reference/js/classes/MossClient",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/classes/MossClient.md",
+    "category": "Reference: JavaScript",
+    "description": "Async-first semantic search client for vector similarity operations.",
+    "localPath": "content/docs/reference/js/classes/MossClient.md"
+  },
+  {
+    "title": "SessionIndex",
+    "slug": "reference/js/classes/SessionIndex",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/classes/SessionIndex.md",
+    "category": "Reference: JavaScript",
+    "description": "Local-first, in-process index for real-time indexing and querying.",
+    "localPath": "content/docs/reference/js/classes/SessionIndex.md"
+  },
+  {
+    "title": "Custom Authenticator (JS)",
+    "slug": "reference/js/custom-authenticator",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/custom-authenticator.md",
+    "category": "Reference: JavaScript",
+    "description": "Authenticate browser/frontend clients without shipping your projectKey.",
+    "localPath": "content/docs/reference/js/custom-authenticator.md"
+  },
+  {
+    "title": "Custom embeddings",
+    "slug": "reference/js/custom-embeddings",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/custom-embeddings.md",
+    "category": "Reference: JavaScript",
+    "description": "Bring your own vectors in JavaScript instead of a built-in on-device model.",
+    "localPath": "content/docs/reference/js/custom-embeddings.md"
+  },
+  {
+    "title": "Hybrid search",
+    "slug": "reference/js/hybrid-search",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/hybrid-search.md",
+    "category": "Reference: JavaScript",
+    "description": "Blend semantic and keyword scoring in JavaScript with a single alpha parameter.",
+    "localPath": "content/docs/reference/js/hybrid-search.md"
+  },
+  {
+    "title": "CreateIndexOptions",
+    "slug": "reference/js/interfaces/CreateIndexOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/CreateIndexOptions.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/CreateIndexOptions.md"
+  },
+  {
+    "title": "DocumentInfo",
+    "slug": "reference/js/interfaces/DocumentInfo",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/DocumentInfo.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/DocumentInfo.md"
+  },
+  {
+    "title": "GetDocumentsOptions",
+    "slug": "reference/js/interfaces/GetDocumentsOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/GetDocumentsOptions.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/GetDocumentsOptions.md"
+  },
+  {
+    "title": "IndexInfo",
+    "slug": "reference/js/interfaces/IndexInfo",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/IndexInfo.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/IndexInfo.md"
+  },
+  {
+    "title": "JobProgress",
+    "slug": "reference/js/interfaces/JobProgress",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/JobProgress.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/JobProgress.md"
+  },
+  {
+    "title": "JobStatusResponse",
+    "slug": "reference/js/interfaces/JobStatusResponse",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/JobStatusResponse.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/JobStatusResponse.md"
+  },
+  {
+    "title": "LoadIndexOptions",
+    "slug": "reference/js/interfaces/LoadIndexOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/LoadIndexOptions.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/LoadIndexOptions.md"
+  },
+  {
+    "title": "LoadSessionOptions",
+    "slug": "reference/js/interfaces/LoadSessionOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/LoadSessionOptions.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/LoadSessionOptions.md"
+  },
+  {
+    "title": "ModelRef",
+    "slug": "reference/js/interfaces/ModelRef",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/ModelRef.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/ModelRef.md"
+  },
+  {
+    "title": "MutationOptions",
+    "slug": "reference/js/interfaces/MutationOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/MutationOptions.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/MutationOptions.md"
+  },
+  {
+    "title": "MutationResult",
+    "slug": "reference/js/interfaces/MutationResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/MutationResult.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/MutationResult.md"
+  },
+  {
+    "title": "PushIndexResult",
+    "slug": "reference/js/interfaces/PushIndexResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/PushIndexResult.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/PushIndexResult.md"
+  },
+  {
+    "title": "QueryOptions",
+    "slug": "reference/js/interfaces/QueryOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/QueryOptions.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/QueryOptions.md"
+  },
+  {
+    "title": "QueryResultDocumentInfo",
+    "slug": "reference/js/interfaces/QueryResultDocumentInfo",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/QueryResultDocumentInfo.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/QueryResultDocumentInfo.md"
+  },
+  {
+    "title": "RefreshResult",
+    "slug": "reference/js/interfaces/RefreshResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/RefreshResult.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/RefreshResult.md"
+  },
+  {
+    "title": "SearchResult",
+    "slug": "reference/js/interfaces/SearchResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/interfaces/SearchResult.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/interfaces/SearchResult.md"
+  },
+  {
+    "title": "Metadata filtering",
+    "slug": "reference/js/metadata-filtering",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/metadata-filtering.md",
+    "category": "Reference: JavaScript",
+    "description": "Narrow JavaScript query results to documents whose metadata matches a filter.",
+    "localPath": "content/docs/reference/js/metadata-filtering.md"
+  },
+  {
+    "title": "Sessions",
+    "slug": "reference/js/sessions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/sessions.md",
+    "category": "Reference: JavaScript",
+    "description": "Local-first, real-time indexing in JavaScript with create-resume-query-push.",
+    "localPath": "content/docs/reference/js/sessions.md"
+  },
+  {
+    "title": "FilterCondition",
+    "slug": "reference/js/type-aliases/FilterCondition",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/type-aliases/FilterCondition.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/type-aliases/FilterCondition.md"
+  },
+  {
+    "title": "ISODate",
+    "slug": "reference/js/type-aliases/ISODate",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/type-aliases/ISODate.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/type-aliases/ISODate.md"
+  },
+  {
+    "title": "JobPhase",
+    "slug": "reference/js/type-aliases/JobPhase",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/type-aliases/JobPhase.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/type-aliases/JobPhase.md"
+  },
+  {
+    "title": "JobStatus",
+    "slug": "reference/js/type-aliases/JobStatus",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/type-aliases/JobStatus.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/type-aliases/JobStatus.md"
+  },
+  {
+    "title": "MetadataFilter",
+    "slug": "reference/js/type-aliases/MetadataFilter",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/type-aliases/MetadataFilter.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/type-aliases/MetadataFilter.md"
+  },
+  {
+    "title": "MossModel",
+    "slug": "reference/js/type-aliases/MossModel",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/js/type-aliases/MossModel.md",
+    "category": "Reference: JavaScript",
+    "localPath": "content/docs/reference/js/type-aliases/MossModel.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "reference/python/api",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/api.md",
+    "category": "Reference: Python",
+    "description": "Everything the Moss Python SDK can do, with a snippet for each operation.",
+    "localPath": "content/docs/reference/python/api.md"
+  },
+  {
+    "title": "MossClient",
+    "slug": "reference/python/classes/MossClient",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/classes/MossClient.md",
+    "category": "Reference: Python",
+    "description": "Semantic search client for vector similarity operations.",
+    "localPath": "content/docs/reference/python/classes/MossClient.md"
+  },
+  {
+    "title": "SessionIndex",
+    "slug": "reference/python/classes/SessionIndex",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/classes/SessionIndex.md",
+    "category": "Reference: Python",
+    "description": "Local, in-session index for real-time indexing and querying.",
+    "localPath": "content/docs/reference/python/classes/SessionIndex.md"
+  },
+  {
+    "title": "Custom embeddings",
+    "slug": "reference/python/custom-embeddings",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/custom-embeddings.md",
+    "category": "Reference: Python",
+    "description": "Bring your own vectors instead of a built-in on-device model.",
+    "localPath": "content/docs/reference/python/custom-embeddings.md"
+  },
+  {
+    "title": "Hybrid search",
+    "slug": "reference/python/hybrid-search",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/hybrid-search.md",
+    "category": "Reference: Python",
+    "description": "Blend semantic and keyword scoring with a single alpha parameter.",
+    "localPath": "content/docs/reference/python/hybrid-search.md"
+  },
+  {
+    "title": "AddDocumentsOptions",
+    "slug": "reference/python/interfaces/AddDocumentsOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/AddDocumentsOptions.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/AddDocumentsOptions.md"
+  },
+  {
+    "title": "DocumentInfo",
+    "slug": "reference/python/interfaces/DocumentInfo",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/DocumentInfo.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/DocumentInfo.md"
+  },
+  {
+    "title": "GetDocumentsOptions",
+    "slug": "reference/python/interfaces/GetDocumentsOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/GetDocumentsOptions.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/GetDocumentsOptions.md"
+  },
+  {
+    "title": "IndexInfo",
+    "slug": "reference/python/interfaces/IndexInfo",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/IndexInfo.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/IndexInfo.md"
+  },
+  {
+    "title": "IndexStatus",
+    "slug": "reference/python/interfaces/IndexStatus",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/IndexStatus.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/IndexStatus.md"
+  },
+  {
+    "title": "JobPhase",
+    "slug": "reference/python/interfaces/JobPhase",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/JobPhase.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/JobPhase.md"
+  },
+  {
+    "title": "JobProgress",
+    "slug": "reference/python/interfaces/JobProgress",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/JobProgress.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/JobProgress.md"
+  },
+  {
+    "title": "JobStatus",
+    "slug": "reference/python/interfaces/JobStatus",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/JobStatus.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/JobStatus.md"
+  },
+  {
+    "title": "JobStatusResponse",
+    "slug": "reference/python/interfaces/JobStatusResponse",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/JobStatusResponse.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/JobStatusResponse.md"
+  },
+  {
+    "title": "LoadIndexesResult",
+    "slug": "reference/python/interfaces/LoadIndexesResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/LoadIndexesResult.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/LoadIndexesResult.md"
+  },
+  {
+    "title": "ModelRef",
+    "slug": "reference/python/interfaces/ModelRef",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/ModelRef.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/ModelRef.md"
+  },
+  {
+    "title": "MutationOptions",
+    "slug": "reference/python/interfaces/MutationOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/MutationOptions.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/MutationOptions.md"
+  },
+  {
+    "title": "MutationResult",
+    "slug": "reference/python/interfaces/MutationResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/MutationResult.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/MutationResult.md"
+  },
+  {
+    "title": "PushIndexResult",
+    "slug": "reference/python/interfaces/PushIndexResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/PushIndexResult.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/PushIndexResult.md"
+  },
+  {
+    "title": "QueryOptions",
+    "slug": "reference/python/interfaces/QueryOptions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/QueryOptions.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/QueryOptions.md"
+  },
+  {
+    "title": "QueryResultDocumentInfo",
+    "slug": "reference/python/interfaces/QueryResultDocumentInfo",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/QueryResultDocumentInfo.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/QueryResultDocumentInfo.md"
+  },
+  {
+    "title": "SearchResult",
+    "slug": "reference/python/interfaces/SearchResult",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/interfaces/SearchResult.md",
+    "category": "Reference: Python",
+    "localPath": "content/docs/reference/python/interfaces/SearchResult.md"
+  },
+  {
+    "title": "Metadata filtering",
+    "slug": "reference/python/metadata-filtering",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/metadata-filtering.md",
+    "category": "Reference: Python",
+    "description": "Narrow query results to documents whose metadata matches a filter.",
+    "localPath": "content/docs/reference/python/metadata-filtering.md"
+  },
+  {
+    "title": "Multi-index search",
+    "slug": "reference/python/multi-index-search",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/multi-index-search.md",
+    "category": "Reference: Python",
+    "description": "Search across multiple loaded indexes in one call and get a global top-K.",
+    "localPath": "content/docs/reference/python/multi-index-search.md"
+  },
+  {
+    "title": "Sessions",
+    "slug": "reference/python/sessions",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/python/sessions.md",
+    "category": "Reference: Python",
+    "description": "Index and query locally in real time with a SessionIndex, then push to the cloud.",
+    "localPath": "content/docs/reference/python/sessions.md"
+  },
+  {
+    "title": "SDK Overview",
+    "slug": "reference/sdk",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/sdk.md",
+    "category": "Reference",
+    "description": "Every Moss SDK capability, with links to the detailed guide for each.",
+    "localPath": "content/docs/reference/sdk.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "reference/swift/api",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/swift/api.md",
+    "category": "Reference: Swift",
+    "description": "On-device semantic search for iOS with the Moss Swift SDK.",
+    "localPath": "content/docs/reference/swift/api.md"
+  },
+  {
+    "title": "MossClient",
+    "slug": "reference/swift/classes/MossClient",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/swift/classes/MossClient.md",
+    "category": "Reference: Swift",
+    "description": "Entry point for the Swift SDK: construct the client and open on-device sessions.",
+    "localPath": "content/docs/reference/swift/classes/MossClient.md"
+  },
+  {
+    "title": "MossSession",
+    "slug": "reference/swift/classes/MossSession",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/swift/classes/MossSession.md",
+    "category": "Reference: Swift",
+    "description": "On-device index for local embedding, search, persistence, and cloud sync.",
+    "localPath": "content/docs/reference/swift/classes/MossSession.md"
+  },
+  {
+    "title": "Custom Authenticator",
+    "slug": "reference/swift/custom-authenticator",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/swift/custom-authenticator.md",
+    "category": "Reference: Swift",
+    "description": "Authenticate the Swift client with short-lived tokens from your backend.",
+    "localPath": "content/docs/reference/swift/custom-authenticator.md"
+  },
+  {
+    "title": "Querying",
+    "slug": "reference/swift/querying",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/swift/querying.md",
+    "category": "Reference: Swift",
+    "description": "Hybrid search and metadata filtering with the Moss Swift SDK.",
+    "localPath": "content/docs/reference/swift/querying.md"
+  },
+  {
+    "title": "Types",
+    "slug": "reference/swift/types",
+    "sourceUrl": "https://docs.moss.dev/docs/reference/swift/types.md",
+    "category": "Reference: Swift",
+    "description": "Structs and enums used across the Moss Swift SDK.",
+    "localPath": "content/docs/reference/swift/types.md"
+  },
+  {
+    "title": "Add Documents",
+    "slug": "api-reference/v1/document-operations/addDocs",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/document-operations/addDocs.md",
+    "category": "API Reference",
+    "description": "Append or upsert documents into an existing index.",
+    "localPath": "content/docs/api-reference/v1/document-operations/addDocs.md"
+  },
+  {
+    "title": "Delete Documents",
+    "slug": "api-reference/v1/document-operations/deleteDocs",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/document-operations/deleteDocs.md",
+    "category": "API Reference",
+    "description": "Remove specific documents by ID and rebuild the index.",
+    "localPath": "content/docs/api-reference/v1/document-operations/deleteDocs.md"
+  },
+  {
+    "title": "Get Documents",
+    "slug": "api-reference/v1/document-operations/getDocs",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/document-operations/getDocs.md",
+    "category": "API Reference",
+    "description": "Retrieve the stored documents for an index.",
+    "localPath": "content/docs/api-reference/v1/document-operations/getDocs.md"
+  },
+  {
+    "title": "Authentication",
+    "slug": "api-reference/v1/getting-started/authentication",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/getting-started/authentication.md",
+    "category": "API Reference",
+    "description": "How to authenticate requests to the Moss Control Plane API.",
+    "localPath": "content/docs/api-reference/v1/getting-started/authentication.md"
+  },
+  {
+    "title": "Introduction",
+    "slug": "api-reference/v1/getting-started/introduction",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/getting-started/introduction.md",
+    "category": "API Reference",
+    "description": "Base URL and overview for the Moss Control Plane API.",
+    "localPath": "content/docs/api-reference/v1/getting-started/introduction.md"
+  },
+  {
+    "title": "Overview",
+    "slug": "api-reference/v1/getting-started/overview",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/getting-started/overview.md",
+    "category": "API Reference",
+    "description": "Control Plane endpoint structure and shared request schema.",
+    "localPath": "content/docs/api-reference/v1/getting-started/overview.md"
+  },
+  {
+    "title": "Delete Index",
+    "slug": "api-reference/v1/index-management/deleteIndex",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/index-management/deleteIndex.md",
+    "category": "API Reference",
+    "description": "Delete an index record and associated assets.",
+    "localPath": "content/docs/api-reference/v1/index-management/deleteIndex.md"
+  },
+  {
+    "title": "Get Index",
+    "slug": "api-reference/v1/index-management/getIndex",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/index-management/getIndex.md",
+    "category": "API Reference",
+    "description": "Fetch metadata for a single index.",
+    "localPath": "content/docs/api-reference/v1/index-management/getIndex.md"
+  },
+  {
+    "title": "Get Job Status",
+    "slug": "api-reference/v1/index-management/getJobStatus",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/index-management/getJobStatus.md",
+    "category": "API Reference",
+    "description": "Check the status of an async index build job.",
+    "localPath": "content/docs/api-reference/v1/index-management/getJobStatus.md"
+  },
+  {
+    "title": "Init Upload",
+    "slug": "api-reference/v1/index-management/initUpload",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/index-management/initUpload.md",
+    "category": "API Reference",
+    "description": "Get a presigned URL to upload index data for a new index.",
+    "localPath": "content/docs/api-reference/v1/index-management/initUpload.md"
+  },
+  {
+    "title": "List Indexes",
+    "slug": "api-reference/v1/index-management/listIndex",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/index-management/listIndex.md",
+    "category": "API Reference",
+    "description": "List every index tied to a project.",
+    "localPath": "content/docs/api-reference/v1/index-management/listIndex.md"
+  },
+  {
+    "title": "Start Build",
+    "slug": "api-reference/v1/index-management/startBuild",
+    "sourceUrl": "https://docs.moss.dev/docs/api-reference/v1/index-management/startBuild.md",
+    "category": "API Reference",
+    "description": "Trigger an index build after uploading data.",
+    "localPath": "content/docs/api-reference/v1/index-management/startBuild.md"
+  },
+  {
+    "title": "Voice Agents",
+    "slug": "voice-agents/voice-agents",
+    "sourceUrl": "https://docs.moss.dev/docs/voice-agents/voice-agents.md",
+    "category": "Voice Agents",
+    "description": "Build and deploy AI voice agents with Moss ## Optional",
+    "localPath": "content/docs/voice-agents/voice-agents.md"
+  },
+  {
+    "title": "Product Updates",
+    "slug": "changelog",
+    "sourceUrl": "https://docs.moss.dev/docs/changelog.md",
+    "category": "Other",
+    "localPath": "content/docs/changelog.md"
+  },
+  {
+    "title": "Pricing & Limits",
+    "slug": "pricing",
+    "sourceUrl": "https://docs.moss.dev/docs/pricing.md",
+    "category": "Other",
+    "localPath": "content/docs/pricing.md"
+  }
+]
