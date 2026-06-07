@@ -419,7 +419,7 @@ npm run build
 npm run start
 ```
 
-Open [http://127.0.0.1:3000/integrations](http://127.0.0.1:3000/integrations) and tap **Talk to us**.
+Open [http://127.0.0.1:3000/](http://127.0.0.1:3000/) and tap **Talk to us**.
 
 ### Try these queries
 
@@ -434,7 +434,8 @@ Open [http://127.0.0.1:3000/integrations](http://127.0.0.1:3000/integrations) an
 
 | Route | Purpose |
 | --- | --- |
-| `/integrations` | Integration hub |
+| `/` | Moss product homepage (voice AI / retrieval story) |
+| `/integrations` | Integration hub ("Works with Your Stack") |
 | `/integrations/livekit` | LiveKit voice agent docs |
 | `/integrations/vapi` | VAPI integration |
 | `/integrations/langchain` | LangChain integration |

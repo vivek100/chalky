@@ -18,7 +18,7 @@ export function SiteHeader({ onSearch }: { onSearch?: () => void }) {
   return (
     <header className="sticky top-0 z-40 border-b border-moss-line bg-white/95 backdrop-blur">
       <div className="moss-container flex h-16 items-center justify-between gap-4">
-        <Link href="/integrations" className="focus-ring flex items-center gap-2 rounded-md" data-agent-id="site-logo-link">
+        <Link href="/" className="focus-ring flex items-center gap-2 rounded-md" data-agent-id="site-logo-link">
           <span className="grid size-7 place-items-center rounded-lg bg-moss-ink text-sm font-bold text-white">M</span>
           <span className="text-base font-semibold tracking-tight">Moss</span>
         </Link>

@@ -9,6 +9,7 @@ function pageIdFromRoute(route: string) {
 
 export function getAgentRoutes(): AgentRoute[] {
   const routes: AgentRoute[] = [
+    { route: "/", pageId: "home", title: "Home", source: "static" },
     { route: "/integrations", pageId: "integrations", title: "Integrations", source: "static" },
     { route: "/demo", pageId: "demo", title: "Demo Walkthroughs", source: "static" },
     { route: "/login", pageId: "login", title: "Login", source: "static" },

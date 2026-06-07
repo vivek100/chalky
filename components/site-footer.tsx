@@ -15,7 +15,7 @@ export function SiteFooter() {
           <p className="mt-5 text-xs text-moss-muted">© 2026 InferEdge Inc. Public content attributed to Moss.</p>
         </div>
         <div className="grid gap-8 sm:grid-cols-3">
-          <FooterGroup title="Quick Links" links={[["Docs", "/docs"], ["Pricing", "/docs/pricing"], ["Demo", "/demo"], ["Integrations", "/integrations"]]} />
+          <FooterGroup title="Quick Links" links={[["Home", "/"], ["Docs", "/docs"], ["Pricing", "/docs/pricing"], ["Demo", "/demo"], ["Integrations", "/integrations"]]} />
           <FooterGroup title="Integrations" links={integrations.slice(0, 6).map((item) => [item.shortTitle, `/integrations/${item.slug}`])} />
           <FooterGroup title="More" links={integrations.slice(6).map((item) => [item.shortTitle, `/integrations/${item.slug}`])} />
         </div>

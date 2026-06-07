@@ -7,8 +7,8 @@ export type LandingAgentDoc = {
 };
 
 const landingText = [
-  "Moss integrations landing page.",
-  "Route: /integrations. The root route redirects here.",
+  "Moss integrations page.",
+  "Route: /integrations. The site homepage lives at /.",
   "Hero headline: Works with Your Stack.",
   "Hero description: Drop-in sub-10ms semantic search for frameworks and platforms. Install the SDK, create an index, and start querying in minutes.",
   "Users can browse integrations by category, open integration detail pages, start free signup, talk to the team, open docs, view demo scenarios, pricing, and changelog/blog."

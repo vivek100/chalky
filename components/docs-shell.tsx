@@ -28,7 +28,7 @@ export function DocsShell({
           <div className="hidden items-center gap-3 md:flex">
             <DocsSearch entries={searchEntries} />
             <AssistantButton />
-            <Link className="text-sm text-moss-muted hover:text-moss-ink" href="/integrations">Website</Link>
+            <Link className="text-sm text-moss-muted hover:text-moss-ink" href="/">Website</Link>
           </div>
           <label className="focus-ring cursor-pointer rounded-md p-2 md:hidden" htmlFor="docs-nav-toggle" aria-label="Toggle docs navigation">
             <Menu size={21} />
